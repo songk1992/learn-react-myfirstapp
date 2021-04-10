@@ -1,5 +1,17 @@
 # 리액트 스터디
 
+referenced and learned from
+
+<br />
+
+[ https://reactjs.org/ ](https://reactjs.org/ "리액트 웹사이트")
+
+<br />
+
+[ Complete React Native in 2021: Zero to Mastery with Hooks (유데미 유료 강의) ](https://www.udemy.com/course/complete-react-native-mobile-development-zero-to-mastery-with-hooks/ "REACT 온라인 강의")
+
+<br />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
