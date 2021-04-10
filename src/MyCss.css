@@ -1,0 +1,39 @@
+.outerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myCardList{
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+
+.myCard
+{
+    text-align: center;
+    background-color: #9eebcf;
+    display: inline-block;
+    border-width: .25rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .5rem;
+    box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 20%);
+    backface-visibility: hidden;
+
+}
+
+.grow{
+    transform: translateZ( 0 );
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus { 
+    -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); 
+}
+.grow:active { 
+    -webkit-transform: scale( .90 ); transform: scale( .90 ); 
+}
