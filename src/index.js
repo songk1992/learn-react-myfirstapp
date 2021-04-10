@@ -7,7 +7,7 @@ import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <MyComponent greeting={'Hello fullstack master!'}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
