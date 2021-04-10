@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyCard from './MyCard';
+import MyCardList from './MyCardList';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import { robots } from './robots';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyCard id={robots[0].id} name={robots[0].name} email={robots[0].email}/>
-    <MyCard id={robots[1].id} name={robots[1].name} email={robots[1].email}/>
-    <MyCard id={robots[2].id} name={robots[2].name} email={robots[2].email}/>
+    <MyCardList robots={robots}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
