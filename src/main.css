@@ -1,0 +1,13 @@
+.myClass {
+    text-align: center;
+    color: #fff;
+    background-color: tomato;
+}
+
+.myClass h1{
+    font-size: 3em;
+}
+
+.myClass p {
+    font-size: 1em;
+}
