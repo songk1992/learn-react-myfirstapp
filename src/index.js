@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyApp from './MyApp';
+import MyApp from './containers/MyApp';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 

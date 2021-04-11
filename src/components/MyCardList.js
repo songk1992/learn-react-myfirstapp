@@ -1,6 +1,5 @@
 import React from 'react';
 import MyCard from './MyCard';
-import './MyCss.css';
 
 const MyCardList = ({ robots }) => {
 
