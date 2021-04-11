@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MyCardList from './MyCardList';
 import SearchBox from './SearchBox.js';
-import { robots } from './robots';
 import './MyCss.css';
 
 class App extends Component {
@@ -9,9 +8,16 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            robots: robots,
+            robots: [],
             searchfield: ''
         }
+    }
+
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => response.json())
+        .then(users=>this.setState({robots : users}));
+
     }
 
     onSearchChange = (event) => {
@@ -23,14 +29,20 @@ class App extends Component {
             return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
         })
 
-        return (
-            <div className='outerBox'>
-                <span>로봇 친구들</span>
-                <SearchBox searchChange={this.onSearchChange}/>
-                <MyCardList robots={filteredRobots}/>
-            </div>
-    
-        );
+        if(this.state.robots.length === 0){
+            return <h1>Loading</h1>
+        }else{
+            return (
+                <div className='outerBox'>
+                    <span>로봇 친구들</span>
+                    <SearchBox searchChange={this.onSearchChange}/>
+                    <MyCardList robots={filteredRobots}/>
+                </div>
+        
+            );
+        }
+
+
     }
 }
 
