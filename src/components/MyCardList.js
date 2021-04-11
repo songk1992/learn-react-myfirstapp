@@ -3,7 +3,7 @@ import MyCard from './MyCard';
 
 const MyCardList = ({ robots }) => {
 
-
+    // throw new Error('dfdsf');
 
     return(
         <div className="myCardList">
