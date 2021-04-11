@@ -13,6 +13,14 @@ referenced and learned from
 <br />
 
 
+# 결과물
+
+<img src="https://github.com/songk1992/learn-react-myfirstapp/blob/master/public/sample.gif">
+
+[ 결과 보러가기 (클릭) ](http://nxver.com/learn-react-myfirstapp/ "테스트 해보기")
+
+
+
 # 추가 자료
 
 <br />
