@@ -25,7 +25,7 @@ class App extends Component {
 
         return (
             <div className='outerBox'>
-                <h1>로봇 친구들</h1>
+                <span>로봇 친구들</span>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <MyCardList robots={filteredRobots}/>
             </div>

@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+.outerBox span {
+    font-family: 'Gugi';
+    font-size: 4em;
+    margin: 50px 0 50px 0;
+}
+
+
+
 .myCardList{
     text-align: center;
     margin: 0 auto;
