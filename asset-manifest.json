@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/learn-react-myfirstapp/static/css/main.9b85c9c7.chunk.css",
-    "main.js": "/learn-react-myfirstapp/static/js/main.3d0fa535.chunk.js",
-    "main.js.map": "/learn-react-myfirstapp/static/js/main.3d0fa535.chunk.js.map",
-    "runtime-main.js": "/learn-react-myfirstapp/static/js/runtime-main.c0841b99.js",
-    "runtime-main.js.map": "/learn-react-myfirstapp/static/js/runtime-main.c0841b99.js.map",
+    "main.js": "/learn-react-myfirstapp/static/js/main.a642e3dd.chunk.js",
+    "main.js.map": "/learn-react-myfirstapp/static/js/main.a642e3dd.chunk.js.map",
+    "runtime-main.js": "/learn-react-myfirstapp/static/js/runtime-main.dcfaf7e4.js",
+    "runtime-main.js.map": "/learn-react-myfirstapp/static/js/runtime-main.dcfaf7e4.js.map",
     "static/css/2.fe359a49.chunk.css": "/learn-react-myfirstapp/static/css/2.fe359a49.chunk.css",
-    "static/js/2.56e6123a.chunk.js": "/learn-react-myfirstapp/static/js/2.56e6123a.chunk.js",
-    "static/js/2.56e6123a.chunk.js.map": "/learn-react-myfirstapp/static/js/2.56e6123a.chunk.js.map",
-    "static/js/3.49c2c325.chunk.js": "/learn-react-myfirstapp/static/js/3.49c2c325.chunk.js",
-    "static/js/3.49c2c325.chunk.js.map": "/learn-react-myfirstapp/static/js/3.49c2c325.chunk.js.map",
+    "static/js/2.abd9359e.chunk.js": "/learn-react-myfirstapp/static/js/2.abd9359e.chunk.js",
+    "static/js/2.abd9359e.chunk.js.map": "/learn-react-myfirstapp/static/js/2.abd9359e.chunk.js.map",
+    "static/js/3.fc0dfc7e.chunk.js": "/learn-react-myfirstapp/static/js/3.fc0dfc7e.chunk.js",
+    "static/js/3.fc0dfc7e.chunk.js.map": "/learn-react-myfirstapp/static/js/3.fc0dfc7e.chunk.js.map",
     "index.html": "/learn-react-myfirstapp/index.html",
     "static/css/2.fe359a49.chunk.css.map": "/learn-react-myfirstapp/static/css/2.fe359a49.chunk.css.map",
     "static/css/main.9b85c9c7.chunk.css.map": "/learn-react-myfirstapp/static/css/main.9b85c9c7.chunk.css.map",
-    "static/js/2.56e6123a.chunk.js.LICENSE.txt": "/learn-react-myfirstapp/static/js/2.56e6123a.chunk.js.LICENSE.txt"
+    "static/js/2.abd9359e.chunk.js.LICENSE.txt": "/learn-react-myfirstapp/static/js/2.abd9359e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0841b99.js",
+    "static/js/runtime-main.dcfaf7e4.js",
     "static/css/2.fe359a49.chunk.css",
-    "static/js/2.56e6123a.chunk.js",
+    "static/js/2.abd9359e.chunk.js",
     "static/css/main.9b85c9c7.chunk.css",
-    "static/js/main.3d0fa535.chunk.js"
+    "static/js/main.a642e3dd.chunk.js"
   ]
 }
