@@ -16,7 +16,7 @@ function App() {
     // }
     const [robots, setRobots] = useState([])
     const [searchfield, setSearchfield] = useState('')
-
+    const [count, setCount] = useState(0)
 
     // componentDidMount() {
     //     fetch('https://jsonplaceholder.typicode.com/users')
@@ -27,7 +27,8 @@ function App() {
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users=> {setRobots(users)});
-    }, [])
+        console.log(count);
+    }, [count]) // 카운트가 바뀔때만 실행
 
     const onSearchChange = (event) => {
         setSearchfield(event.target.value)
@@ -43,6 +44,7 @@ function App() {
     (
         <div className='outerBox'>
         <span>로봇 친구들</span>
+        <button onClick={()=>setCount(count+1)}>클릭!</button>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
             <ErrorBoundary>
